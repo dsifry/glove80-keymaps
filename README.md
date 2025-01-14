@@ -306,6 +306,19 @@ may need to enable support for Unicode hexadecimal character input in your OS:
 
 - (macOS) https://uknowit.uwgb.edu/page.php?id=22623
     and   https://github.com/ldanet/unicode-hex-input-fix
+    for MacOS 15 (Sonoma):
+
+1. Open System Preferences
+In the Search box at the top left, type "show keyboard and emoji" in the search box
+2. Click on the item called "Show keyboard and emoji viewers in menu bar"
+- A new window will pop up
+- At the bottom left of that window, there's a "+" and a "-"
+3. Click on the "+"
+- In the search box at the bottom of the panel that pops up, type "unicode"
+- On the right, you'll see "Unicode Hex Input"
+4. Click on it to select it, and then hit the "Add" button
+
+Voila! You will now have the Unicode hex input available from the menu bar, and you can select it to type in Emoji.
 - (Linux) https://help.ubuntu.com/stable/ubuntu-help/tips-specialchars.html.en#ctrlshiftu
 - (Windows) https://github.com/samhocevar/wincompose
 
